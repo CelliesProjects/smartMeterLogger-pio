@@ -1,7 +1,7 @@
 /* system setup file for smartMeterLogger-esp32 */
 
-const char* WIFI_NETWORK = "huiskamer";
-const char* WIFI_PASSWORD = "0987654321";
+const char* WIFI_NETWORK = "xxx";
+const char* WIFI_PASSWORD = "xxx";
 
 /* settings for smartMeter */
 #define RXD_PIN (36)
@@ -16,7 +16,7 @@ const char* WS_BRIDGE_URL = "/raw";          /* bridge url */
 const uint16_t WS_BRIDGE_PORT = 80;          /* bridge port */
 
 /* If SET_STATIC_IP is set to true then STATIC_IP, GATEWAY, SUBNET and PRIMARY_DNS have to be set to some sane values */
-#define SET_STATIC_IP true
+#define SET_STATIC_IP false
 
 const IPAddress STATIC_IP(192, 168, 0, 90);   /* This should be outside your router dhcp range! */
 const IPAddress GATEWAY(192, 168, 0, 1);      /* Set to your gateway ip address */
